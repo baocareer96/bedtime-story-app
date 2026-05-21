@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500" role="img" aria-labelledby="title desc">
+  <title id="title">Blanket drifting over a hill</title>
+  <desc id="desc">A bedtime illustration placeholder showing a blanket floating in the night breeze.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#3a2f67" />
+      <stop offset="100%" stop-color="#19152e" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1500" fill="url(#sky)" />
+  <path d="M0 1100c200-180 370-160 600-80 180 63 365 97 600-55v535H0z" fill="#2f6b57" />
+  <path d="M170 350c80 20 120 65 175 122 72 73 160 75 218 53 87-33 141-127 261-133 80-4 149 26 206 67" fill="none" stroke="#d5c7f3" stroke-width="22" stroke-linecap="round" stroke-dasharray="1 42" />
+  <path d="M420 430c95-45 205-22 252 20 59 52 54 145 20 213-36 72-105 122-164 117-73-5-160-75-171-160-8-62 14-154 63-190z" fill="#76a9e0" />
+  <circle cx="280" cy="240" r="7" fill="#fff4cf" />
+  <circle cx="360" cy="210" r="9" fill="#fff4cf" />
+  <circle cx="710" cy="190" r="8" fill="#fff4cf" />
+  <circle cx="860" cy="250" r="6" fill="#fff4cf" />
+  <text x="600" y="1360" font-family="Avenir Next Rounded, Nunito, sans-serif" font-size="52" text-anchor="middle" fill="#fff4cf">The blanket floated through the sleepy night.</text>
+</svg>

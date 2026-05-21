@@ -1,0 +1,31 @@
+{
+  "stories": [
+    {
+      "slug": "baby-bear-blanket",
+      "title": "Baby Bear’s Blanket",
+      "subtitle": "A gentle bedtime story",
+      "coverImage": "/images/baby-bear/page-01.jpg",
+      "ageRange": "3-6",
+      "pages": [
+        {
+          "pageNumber": 1,
+          "image": "/images/baby-bear/page-01.jpg",
+          "text": "Baby Bear had a soft blue blanket that smelled like moonlight and home.",
+          "audio": "/audio/baby-bear/page-01.mp3"
+        },
+        {
+          "pageNumber": 2,
+          "image": "/images/baby-bear/page-02.jpg",
+          "text": "When the evening breeze whispered through the trees, the blanket floated away toward the sleepy hill.",
+          "audio": "/audio/baby-bear/page-02.mp3"
+        },
+        {
+          "pageNumber": 3,
+          "image": "/images/baby-bear/page-03.jpg",
+          "text": "Mama Bear tucked the blanket back around Baby Bear, and the stars blinked softly as he drifted to sleep.",
+          "audio": "/audio/baby-bear/page-03.mp3"
+        }
+      ]
+    }
+  ]
+}
