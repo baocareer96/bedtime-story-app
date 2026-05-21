@@ -2,39 +2,39 @@
   "stories": [
     {
       "slug": "baby-bear-blanket",
-      "title": "Baby Bear’s Blanket",
+      "title": "Baby Bear's Blanket",
       "subtitle": "A gentle bedtime story",
-      "coverImage": "/images/baby-bear/page-01.jpg",
+      "coverImage": "/images/baby-bear/page-01.png",
       "ageRange": "3-6",
       "pages": [
         {
           "pageNumber": 1,
-          "image": "/images/baby-bear/page-01.jpg",
+          "image": "/images/baby-bear/page-01.png",
           "text": "Baby Bear had a soft blue blanket.",
           "audio": "/audio/baby-bear/page-01.mp3"
         },
         {
           "pageNumber": 2,
-          "image": "/images/baby-bear/page-02.jpg",
+          "image": "/images/baby-bear/page-02.png",
           "text": "He loved his blanket very much.",
           "audio": "/audio/baby-bear/page-02.mp3"
         },
         {
           "pageNumber": 3,
-          "image": "/images/baby-bear/page-03.jpg",
+          "image": "/images/baby-bear/page-03.png",
           "text": "One night, Baby Bear looked around.",
           "audio": "/audio/baby-bear/page-03.mp3"
         },
         {
           "pageNumber": 4,
-          "image": "/images/baby-bear/page-04.jpg",
-          "text": "“Oh no!” cried Baby Bear.",
+          "image": "/images/baby-bear/page-04.png",
+          "text": "\"Oh no!\" cried Baby Bear.",
           "audio": "/audio/baby-bear/page-04.mp3"
         },
         {
           "pageNumber": 5,
           "image": "/images/baby-bear/page-05.jpg",
-          "text": "“My blanket is missing!”",
+          "text": "\"My blanket is missing!\"",
           "audio": "/audio/baby-bear/page-05.mp3"
         },
         {
@@ -58,7 +58,7 @@
         {
           "pageNumber": 9,
           "image": "/images/baby-bear/page-09.jpg",
-          "text": "“There it is! My blanket!”",
+          "text": "\"There it is! My blanket!\"",
           "audio": "/audio/baby-bear/page-09.mp3"
         },
         {
