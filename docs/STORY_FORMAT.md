@@ -2,27 +2,23 @@
 
 ## Source of Truth
 
-All story content is managed in `data/stories.json`.
+All story content is managed as one file per story in `data/stories/`.
 
 ## Required Story Shape
 
 ```json
 {
-  "stories": [
+  "slug": "baby-bear-blanket",
+  "title": "Baby Bear's Blanket",
+  "subtitle": "A gentle bedtime story",
+  "coverImage": "/images/baby-bear/page-01.jpg",
+  "ageRange": "3-6",
+  "pages": [
     {
-      "slug": "baby-bear-blanket",
-      "title": "Baby Bear’s Blanket",
-      "subtitle": "A gentle bedtime story",
-      "coverImage": "/images/baby-bear/page-01.jpg",
-      "ageRange": "3-6",
-      "pages": [
-        {
-          "pageNumber": 1,
-          "image": "/images/baby-bear/page-01.jpg",
-          "text": "Baby Bear had a soft blue blanket.",
-          "audio": "/audio/baby-bear/page-01.mp3"
-        }
-      ]
+      "pageNumber": 1,
+      "image": "/images/baby-bear/page-01.jpg",
+      "text": "Baby Bear had a soft blue blanket.",
+      "audio": "/audio/baby-bear/page-01.mp3"
     }
   ]
 }
@@ -33,7 +29,7 @@ All story content is managed in `data/stories.json`.
 1. Create a new folder under `public/images/<story-name>/`.
 2. Add one image per page.
 3. Optionally create `public/audio/<story-name>/` and add one MP3 per page.
-4. Add a new story object to `data/stories.json`.
+4. Create a new file `data/stories/<story-slug>.json`.
 5. Make sure the `slug` is unique.
 6. Make sure `coverImage` points at the first page image or a cover image.
 7. Keep `pageNumber` values sequential starting from `1`.

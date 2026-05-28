@@ -1,0 +1,69 @@
+{
+  "slug": "baby-bear-blanket",
+  "title": "Baby Bear's Blanket",
+  "subtitle": "A gentle bedtime story",
+  "coverImage": "/images/baby-bear/page-01.png",
+  "ageRange": "3-6",
+  "pages": [
+    {
+      "pageNumber": 1,
+      "image": "/images/baby-bear/page-01.png",
+      "text": "Baby Bear had a soft blue blanket.",
+      "audio": "/audio/baby-bear/page-01.mp3"
+    },
+    {
+      "pageNumber": 2,
+      "image": "/images/baby-bear/page-02.png",
+      "text": "He loved his blanket very much.",
+      "audio": "/audio/baby-bear/page-02.mp3"
+    },
+    {
+      "pageNumber": 3,
+      "image": "/images/baby-bear/page-03.png",
+      "text": "One night, Baby Bear looked around.",
+      "audio": "/audio/baby-bear/page-03.mp3"
+    },
+    {
+      "pageNumber": 4,
+      "image": "/images/baby-bear/page-04.png",
+      "text": "\"Oh no!\" cried Baby Bear.",
+      "audio": "/audio/baby-bear/page-04.mp3"
+    },
+    {
+      "pageNumber": 5,
+      "image": "/images/baby-bear/page-05.jpg",
+      "text": "\"My blanket is missing!\"",
+      "audio": "/audio/baby-bear/page-05.mp3"
+    },
+    {
+      "pageNumber": 6,
+      "image": "/images/baby-bear/page-06.jpg",
+      "text": "Mama Bear looked under the bed.",
+      "audio": "/audio/baby-bear/page-06.mp3"
+    },
+    {
+      "pageNumber": 7,
+      "image": "/images/baby-bear/page-07.jpg",
+      "text": "Papa Bear looked in the chair.",
+      "audio": "/audio/baby-bear/page-07.mp3"
+    },
+    {
+      "pageNumber": 8,
+      "image": "/images/baby-bear/page-08.jpg",
+      "text": "Baby Bear looked behind the pillow.",
+      "audio": "/audio/baby-bear/page-08.mp3"
+    },
+    {
+      "pageNumber": 9,
+      "image": "/images/baby-bear/page-09.jpg",
+      "text": "\"There it is! My blanket!\"",
+      "audio": "/audio/baby-bear/page-09.mp3"
+    },
+    {
+      "pageNumber": 10,
+      "image": "/images/baby-bear/page-10.jpg",
+      "text": "Baby Bear hugged it tightly and slept happily.",
+      "audio": "/audio/baby-bear/page-10.mp3"
+    }
+  ]
+}

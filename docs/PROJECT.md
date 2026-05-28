@@ -8,7 +8,7 @@ This app is a simple public bedtime story reader built for children and parents 
 
 - `app/`: Next.js App Router pages and global layout.
 - `components/`: Reusable UI for story cards, progress, narration, and reading.
-- `data/stories.json`: Single source of truth for story metadata and page content.
+- `data/stories/`: One JSON file per story for story metadata and page content.
 - `public/images`: Story illustrations.
 - `public/audio`: Optional narration files.
 - `public/manifest.json`: PWA metadata for home screen install behavior.
@@ -16,7 +16,7 @@ This app is a simple public bedtime story reader built for children and parents 
 
 ## Rendering Model
 
-- Home page loads stories from local JSON at build time.
+- Home page loads story JSON files from `data/stories/` at build time.
 - Story pages use dynamic routes from each story `slug`.
 - `generateStaticParams()` makes story pages static-friendly for Vercel deployment.
 

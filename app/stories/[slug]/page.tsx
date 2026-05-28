@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
-import storiesData from "@/data/stories.json";
 import { StoryReader } from "@/components/StoryReader";
+import { getStories, getStoryBySlug } from "@/lib/stories";
 
 type StoryPageProps = {
   params: Promise<{
@@ -8,15 +8,17 @@ type StoryPageProps = {
   }>;
 };
 
-export function generateStaticParams() {
-  return storiesData.stories.map((story) => ({
+export async function generateStaticParams() {
+  const stories = await getStories();
+
+  return stories.map((story) => ({
     slug: story.slug
   }));
 }
 
 export default async function StoryPage({ params }: StoryPageProps) {
   const { slug } = await params;
-  const story = storiesData.stories.find((item) => item.slug === slug);
+  const story = await getStoryBySlug(slug);
 
   if (!story) {
     notFound();

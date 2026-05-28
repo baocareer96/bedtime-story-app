@@ -13,7 +13,3 @@ export type Story = {
   ageRange: string;
   pages: StoryPage[];
 };
-
-export type StoryData = {
-  stories: Story[];
-};

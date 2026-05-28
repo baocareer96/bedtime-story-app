@@ -1,8 +1,8 @@
-import storiesData from "@/data/stories.json";
 import { StoryCard } from "@/components/StoryCard";
+import { getStories } from "@/lib/stories";
 
-export default function HomePage() {
-  const { stories } = storiesData;
+export default async function HomePage() {
+  const stories = await getStories();
 
   return (
     <main className="safe-top safe-bottom min-h-screen px-4 py-6 sm:px-6">
